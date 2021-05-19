@@ -2,7 +2,7 @@ package ru.netology
 
 fun main() {
     val transferAmount = 500_000   //сумма перевода
-    val typeOfCard = "Maestro"
+    val typeOfCard = "Visa"
     val amountOfPreviousTransfers = 7_600_000   //Сумма предыдущих переводов в этом месяце
     println(whichCard(typeOfCard, transferAmount, amountOfPreviousTransfers))
 }
@@ -31,7 +31,7 @@ fun visaAndMir(transferAmount: Int): String {
     return when {
         transferAmount > 3500 -> {
             val amountAfterCommission = transferAmount - (transferAmount * 0.0075)
-            "Сумма перевода после комиссии ${amountAfterCommission.toInt()} копеек"
+            "Сумма перевода ${amountAfterCommission.toInt()} копеек"
         }
         else -> "Сумма перевода недостаточна"
     }

@@ -42,7 +42,7 @@ class MainKtTest {
     fun visaAndMir() {
         //arrange
         val amount = 500_000   //сумма перевода
-        val card = "Maestro"
+        val card = "Visa"
         val transfers = 7_600_000
 
         //act
@@ -52,6 +52,6 @@ class MainKtTest {
             amountOfPreviousTransfers = transfers
         )
         //assert
-        assertEquals("Сумма перевода 495000 копеек", result)
+        assertEquals("Сумма перевода 496250 копеек", result)
     }
 }
