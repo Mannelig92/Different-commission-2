@@ -2,7 +2,7 @@ package ru.netology
 
 fun main() {
     val transferAmount = 500_000   //сумма перевода
-    val typeOfCard = "Visa"
+    val typeOfCard = "Mastercard"
     val amountOfPreviousTransfers = 7_600_000   //Сумма предыдущих переводов в этом месяце
     println(whichCard(typeOfCard, transferAmount, amountOfPreviousTransfers))
 }
