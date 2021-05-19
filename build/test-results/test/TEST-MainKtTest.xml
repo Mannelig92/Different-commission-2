@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="MainKtTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-19T09:55:46" hostname="MANNELIGPC" time="0.009">
+<testsuite name="MainKtTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-05-19T10:27:05" hostname="MANNELIGPC" time="0.014">
   <properties/>
-  <testcase name="visaAndMir_Visa" classname="MainKtTest" time="0.009"/>
+  <testcase name="whichCard" classname="MainKtTest" time="0.013"/>
+  <testcase name="visaAndMir_Visa" classname="MainKtTest" time="0.0"/>
+  <testcase name="visaAndMir_Mir" classname="MainKtTest" time="0.001"/>
+  <testcase name="masterCardAndMaestro_MasterCard" classname="MainKtTest" time="0.0"/>
+  <testcase name="masterCardAndMaestro_Maestro" classname="MainKtTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
